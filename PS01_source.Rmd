@@ -299,8 +299,14 @@ Type your complete sentence answer here using inline R code and delete this comm
 
 9.  Copy, paste, and run the following code to make a vector called `music` that contains music genres. Recall a vector is a data object that has multiple elements of the same type. Here the data type is a **character**. Look in the environment pane. How does R tell us that this vector contains **characters** not numbers? (please answer with **text**)
 
-```{r}
+```{r, eval = FALSE}
 music <- c("bluegrass", "funk", "folk")
+```
+
+```{r}
+# Type your code and comments inside the code chunk
+
+
 ```
 
 <div id="answer">
