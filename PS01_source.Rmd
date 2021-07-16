@@ -127,7 +127,7 @@ To actually **RUN** this command in your console, you have a few options:
 Think of "running" code in your console as telling R "do this."
 
 <div id="instructions">
-Note that you now have a new object in your workspace, called x.
+Note that you now have a new object in your workspace, called `x`.
 </div>
 
 ```{r, echo = FALSE}
@@ -358,6 +358,10 @@ There are a lot of stats classes and students using the Server. To keep the serv
 - You are signed out. 
 
 
-![](https://ih0.redbubble.net/image.383394350.6935/mp,550x550,gloss,ffffff,t.3u1.jpg){width=41%}     ![](https://m.media-amazon.com/images/M/MV5BMTg2NTIwOWEtMDY1Yi00MTY0LWIwOGQtZTBmODNhZDdmYTkwXkEyXkFqcGdeQXVyODUyMjAzMDc@._V1_SY1000_CR0,0,587,1000_AL_.jpg){width=17%}               
+![](https://ih0.redbubble.net/image.383394350.6935/mp,550x550,gloss,ffffff,t.3u1.jpg){width=100%}     
 
 * * *
+
+```{r}
+sessionInfo()
+```
