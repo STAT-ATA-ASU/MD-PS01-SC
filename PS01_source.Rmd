@@ -31,7 +31,7 @@ Today, we begin with the fundamental building blocks of R and RStudio: the inter
 
 Open Appalachian's RStudio Server and sign in: [RStudio Server](https://mathr.math.appstate.edu)
 
-Your credentials are the same as for your email. 
+Your credentials are the same ones you use to log into your ASU email account. 
 
 Please **DO NOT** choose Stay signed in. 
 
@@ -83,25 +83,25 @@ knitr::include_graphics("figures/make_changes.png", dpi = 127)
 
 ## Saving a File
 
-Lab work is committed and pushed as an R Markdown file like this each week, so it is important to learn how to save these files. 
+Lab work is committed and pushed as an R Markdown file like this each week, so it is important to learn how to save these files.  
 
 -  Click File > Save As...
--  Name the file: `PS01_lastname_firstname` (fill in your firstname and lastname)
+-  Name the file: `PS01_lastname_firstname` (fill in your firstname and lastname).  **Note:** the `PS01_lastname_firstname` file is just for your own practice.  The file you will save, commit and push to the class repository is this `PS01_source.Rmd` file you download and make changes to starting in Section 6 (Practice on Your Own). 
 -  Click save
 
 This is now saved in the `MD-PS01-SC` folder **on the server**. 
 
 ## Knitting a File
 
-Click the Knit button at the top left side of the screen to "knit" the file, or in other words, produce an output document. An `.html` file will be generated. It is automatically saved in the same folder as your R Markdown file. 
+Click the Knit button at the top left side of the screen to "knit" the file, or in other words, produce an output document. An `*.html` file will be generated. It is automatically saved in the same folder as your R Markdown file. 
 
 <div id="instructions">
-Note that there is now a R Markdown file (`.Rmd`) and an html file (`.html`) in the `MD-PS01-SC` folder.
+Note that there is now a R Markdown file (`PS01_lastname_firstname.Rmd`) and an html file (`PS01_lastname_firstname.html`) in the `MD-PS01-SC` folder in addition to the files you downloaded.
 </div>
 
-Inspect the `.html` file to see how what you typed was formatted. There are lots of tricks for controlling the formatting of the knitted html file. For instance:
+Inspect the `*.html` file to see how what you typed was formatted. There are lots of tricks for controlling the formatting of the knitted html file. For instance:
 
-*  putting `##` and a space in front of text makes it into a large header. For example, see how `## This is a header` in your R Markdown `.Rmd` file translates in the resulting `.html` output.
+*  putting `##` and a space in front of text makes it into a large header. For example, see how `## This is a header` in your R Markdown `*.Rmd` file translates in the resulting `*.html` output.
 *  putting `###` and a space in front of text makes it a smaller header.
 
 
@@ -159,6 +159,7 @@ You can do math on a vector that contains numbers. For instance, copy, paste, an
 v * 3
 ```
 
+________________________
 
 # Practice on Your Own
 
@@ -176,8 +177,6 @@ Remember to save your work as you go along. Click the save button in the upper l
 ```{r}
 # Type your code and comments inside the code chunk
 
-
-
 ```
     
    
@@ -187,12 +186,12 @@ Remember to save your work as you go along. Click the save button in the upper l
 ```{r}
 # Type your code and comments inside the code chunk
 
-
 ```
+
 <div id="answer">
 Type your complete sentence answer here using inline R code and delete this comment.
 
-
+  
 
 </div>    
     
@@ -204,15 +203,10 @@ Type your complete sentence answer here using inline R code and delete this comm
 ```{r}
 # Type your code and comments inside the code chunk
 
-
-
 ```
 
 <div id="answer">
 Type your complete sentence answer here using inline R code and delete this comment.
-
-
-
 
 
 
@@ -236,8 +230,6 @@ Type your complete sentence answer here using inline R code and delete this comm
 
 
 
-
-
 </div> 
      
 
@@ -247,14 +239,10 @@ Type your complete sentence answer here using inline R code and delete this comm
 ```{r}
 # Type your code and comments inside the code chunk
 
-
 ```
 
 <div id="answer">
 Type your complete sentence answer here using inline R code and delete this comment.
-
-
-
 
 
 </div>      
@@ -263,7 +251,6 @@ Type your complete sentence answer here using inline R code and delete this comm
 
 <div id="answer">
 Type your complete sentence answer here using inline R code and delete this comment.
-
 
 
 </div> 
@@ -280,19 +267,18 @@ Type your complete sentence answer here using inline R code and delete this comm
      
    
 8.  Recall the vector `v` we created earlier. Copy, paste, and run the following in a code chunk. What does this code accomplish? (please answer with **text**)
-```{r eval = F}
+
+```{r eval = FALSE}
 v + 2
 ```
 
 ```{r}
 # Type your code and comments inside the code chunk
 
-
 ```
 
 <div id="answer">
 Type your complete sentence answer here using inline R code and delete this comment.
-
 
 
 </div>   
@@ -306,19 +292,16 @@ music <- c("bluegrass", "funk", "folk")
 ```{r}
 # Type your code and comments inside the code chunk
 
-
 ```
 
 <div id="answer">
 Type your complete sentence answer here using inline R code and delete this comment.
 
 
-
-
 </div> 
 
 
-10. Now let's practice some basic formatting. Using <https://rmarkdown.rstudio.com/authoring_basics.html>, figure out how to put the following into your lab report. These all can get typed into the white section, where text goes. **Hint:** To put  **each of these on its own line!** hit a hard return between each line of text!
+10. Now let's practice some basic formatting. Using <https://rmarkdown.rstudio.com/authoring_basics.html>, figure out how to put the following into your lab report. These all can get typed into the white section, where text goes. **Hint:** To put  **each of these on its own line!** hit a hard return between each line of text!  You do not need to do anything for this problem other than observe the markdown in the document and what the result looks like.
 
 
 *Italicize like this*
@@ -334,16 +317,13 @@ A superscript: R^2^
 Type your complete sentence answer here using inline R code and delete this comment.
 
 
-
-
-
 </div> 
 
 # Turning in Your Work
 
-You will need to make sure you commit and push all of your changes to the github education repository where you obtained the lab.
+You will need to make sure you knit your `*.Rmd` document, commit and push all of your changes to the github education repository where you obtained the lab.
 
-- Make sure you **knit a final copy with all your changes** and work
+- Make sure you **knit a final copy with all your changes**
 - Look at your final html file to make sure it contains the work you expect and is formatted properly.  Type your **text** answers inside the `</div>` tags, and delete the extraneous comments.  
 
 
@@ -358,10 +338,14 @@ There are a lot of stats classes and students using the Server. To keep the serv
 - You are signed out. 
 
 
-![](https://ih0.redbubble.net/image.383394350.6935/mp,550x550,gloss,ffffff,t.3u1.jpg){width=100%}     
+![](https://ih0.redbubble.net/image.383394350.6935/mp,550x550,gloss,ffffff,t.3u1.jpg){width=100%}              
+
 
 * * *
 
 ```{r}
 sessionInfo()
 ```
+
+***
+
