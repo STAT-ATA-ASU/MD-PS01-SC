@@ -26,6 +26,8 @@ The goal this week is to introduce R and RStudio which will be used throughout t
 
 Today, we begin with the fundamental building blocks of R and RStudio: the interface, creating and saving files, and basic commands.
 
+___________
+
 
 # Opening RStudio Server 
 
@@ -161,6 +163,7 @@ v * 3
 
 ________________________
 
+
 # Practice on Your Own
 
 Type complete sentences to answer all questions inside the `answer` tags provided in the R Markdown document.  Round all numeric answers you report inside the answer tags to four decimal places.  Use inline `R` code to report numeric answers inside the `answer` tags (i.e. do not hard code your numeric answers).
@@ -191,7 +194,7 @@ Remember to save your work as you go along. Click the save button in the upper l
 <div id="answer">
 Type your complete sentence answer here using inline R code and delete this comment.
 
-  
++  
 
 </div>    
     
@@ -208,7 +211,11 @@ Type your complete sentence answer here using inline R code and delete this comm
 <div id="answer">
 Type your complete sentence answer here using inline R code and delete this comment.
 
++
 
++
+
++
 
 </div> 
 
@@ -228,7 +235,7 @@ It is a good idea to try kitting your document from time to time as you go along
 <div id="answer">
 Type your complete sentence answer here using inline R code and delete this comment.
 
-
++
 
 </div> 
      
@@ -244,6 +251,7 @@ Type your complete sentence answer here using inline R code and delete this comm
 <div id="answer">
 Type your complete sentence answer here using inline R code and delete this comment.
 
++
 
 </div>      
 
@@ -252,6 +260,7 @@ Type your complete sentence answer here using inline R code and delete this comm
 <div id="answer">
 Type your complete sentence answer here using inline R code and delete this comment.
 
++
 
 </div> 
 
@@ -262,6 +271,7 @@ Type your complete sentence answer here using inline R code and delete this comm
 <div id="answer">
 Type your complete sentence answer here using inline R code and delete this comment.
 
++
 
 </div>      
      
@@ -280,6 +290,7 @@ v + 2
 <div id="answer">
 Type your complete sentence answer here using inline R code and delete this comment.
 
++
 
 </div>   
 
@@ -297,11 +308,12 @@ music <- c("bluegrass", "funk", "folk")
 <div id="answer">
 Type your complete sentence answer here using inline R code and delete this comment.
 
++
 
 </div> 
 
 
-10. Now let's practice some basic formatting. Using <https://rmarkdown.rstudio.com/authoring_basics.html>, figure out how to put the following into your lab report. These all can get typed into the white section, where text goes. **Hint:** To put  **each of these on its own line!** hit a hard return between each line of text!  You do not need to do anything for this problem other than observe the markdown in the document and what the result looks like.
+10. Now let's practice some basic formatting. Using <https://rmarkdown.rstudio.com/authoring_basics.html>, figure out how to put the following into your lab report. These all can get typed into the white section, where text goes. **Hint:** To put  **each of these on its own line** hit a hard return between each line of text.  You do not need to do anything for this problem other than observe the markdown in the document and what the result looks like.
 
 
 *Italicize like this*
@@ -338,7 +350,9 @@ There are a lot of stats classes and students using the Server. To keep the serv
 - You are signed out. 
 
 
-![](https://ih0.redbubble.net/image.383394350.6935/mp,550x550,gloss,ffffff,t.3u1.jpg){width=100%}              
+```{r, echo = FALSE}
+knitr::include_graphics("https://ih0.redbubble.net/image.383394350.6935/mp,550x550,gloss,ffffff,t.3u1.jpg", dpi = 126)
+```
 
 
 * * *
