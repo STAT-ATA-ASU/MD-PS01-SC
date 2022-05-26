@@ -172,6 +172,8 @@ Type complete sentences to answer all questions inside the `answer` tags provide
 Remember to save your work as you go along. Click the save button in the upper left hand corner of the R Markdown window. 
 </div>
 
+_____________
+
 1.  Answer the following with code in a code chunk (no text necessary). Remember that the code is just **instructions** for R. You need to run the code chunk to make R execute those instructions.
     -   Create a variable called `y` with the value of 7 
     -   Multiply `x` by `y`, and store the answer in a variable named `z` like so: `z <- x * y`
@@ -331,6 +333,8 @@ Type your complete sentence answer here using inline R code and delete this comm
 
 </div> 
 
+_____________
+
 # Turning in Your Work
 
 You will need to make sure you knit your `*.Rmd` document, commit and push all of your changes to the github education repository where you obtained the lab.
@@ -355,11 +359,11 @@ knitr::include_graphics("https://ih0.redbubble.net/image.383394350.6935/mp,550x5
 ```
 
 
-* * *
+_________
 
 ```{r}
 sessionInfo()
 ```
 
-***
+___________
 
