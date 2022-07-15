@@ -88,7 +88,7 @@ knitr::include_graphics("figures/make_changes.png", dpi = 127)
 Lab work is committed and pushed as an R Markdown file like this each week, so it is important to learn how to save these files.  
 
 -  Click File > Save As...
--  Name the file: `PS01_lastname_firstname` (fill in your firstname and lastname).  **Note:** the `PS01_lastname_firstname` file is just for your own practice.  The file you will save, commit and push to the class repository is this `PS01_source.Rmd` file you download and make changes to starting in Section 6 (Practice on Your Own). 
+-  Name the file: `PS01_lastname_firstname` (fill in your firstname and lastname).  **Note:** the `PS01_lastname_firstname` file is just for your own practice.  The file you will save, commit and push to the class repository is the `PS01_source.Rmd` file you download and make changes to starting in Section 6 (Practice on Your Own). 
 -  Click save
 
 This is now saved in the `MD-PS01-SC` folder **on the server**. 
@@ -184,7 +184,8 @@ _____________
 
 ```
     
-   
+___________
+
 2.  - Run the following mathematical operation in a code chunk: `6 + 3` 
     - Where does the answer appear? (please answer with **text**)
     
@@ -198,7 +199,9 @@ Type your complete sentence answer here using inline R code and delete this comm
 
 +  
 
-</div>    
+</div>  
+
+___________
     
 3.  - Now add a code chunk, and save the results of `6 + 3` as a variable called `a`. 
     - Does the answer appear? (please answer with **text**)
@@ -221,10 +224,14 @@ Type your complete sentence answer here using inline R code and delete this comm
 
 </div> 
 
+
+___________
+
 <div id="instructions">
 It is a good idea to try kitting your document from time to time as you go along. Go ahead, and make sure your document is knitting and that your html file includes Exercise headers, text, and code. Note that knitting automatically saves your Rmd file.
 </div>
 
+___________
 
 4.   - Run following command in a new code chunk: `a^2`. 
      - What does the `^` operator do? (please answer with **text**)
@@ -241,6 +248,7 @@ Type your complete sentence answer here using inline R code and delete this comm
 
 </div> 
      
+___________
 
 5.   - Type the following command into a new code chunk. `sum(a, x, y)` 
      - `sum` is a function. Based on the output, what do you think the `sum` function does? (please answer with **text**)
@@ -257,6 +265,8 @@ Type your complete sentence answer here using inline R code and delete this comm
 
 </div>      
 
+___________
+
 6.   - Click the little broom icon in the upper right hand corner of the **Environment** pane.  Click yes on the window that opens.      What happened? (please answer with **text**, and don't freak out)  
 
 <div id="answer">
@@ -265,6 +275,8 @@ Type your complete sentence answer here using inline R code and delete this comm
 +
 
 </div> 
+
+___________
 
 7.   - Go to the **Run** button at the top right of the R Markdown pane, and choose **Run All** (the last option)
      - What happened? (please answer with **text**)
@@ -277,7 +289,8 @@ Type your complete sentence answer here using inline R code and delete this comm
 
 </div>      
      
-   
+___________
+
 8.  Recall the vector `v` we created earlier. Copy, paste, and run the following in a code chunk. What does this code accomplish? (please answer with **text**)
 
 ```{r eval = FALSE}
@@ -295,6 +308,8 @@ Type your complete sentence answer here using inline R code and delete this comm
 +
 
 </div>   
+
+___________
 
 9.  Copy, paste, and run the following code to make a vector called `music` that contains music genres. Recall a vector is a data object that has multiple elements of the same type. Here the data type is a **character**. Look in the environment pane. How does R tell us that this vector contains **characters** not numbers? (please answer with **text**)
 
@@ -314,6 +329,7 @@ Type your complete sentence answer here using inline R code and delete this comm
 
 </div> 
 
+___________
 
 10. Now let's practice some basic formatting. Using <https://rmarkdown.rstudio.com/authoring_basics.html>, figure out how to put the following into your lab report. These all can get typed into the white section, where text goes. **Hint:** To put  **each of these on its own line** hit a hard return between each line of text.  You do not need to do anything for this problem other than observe the markdown in the document and what the result looks like.
 
@@ -324,6 +340,7 @@ Type your complete sentence answer here using inline R code and delete this comm
 
 A superscript: R^2^
 
+___________
 
 11. **Extra credit:** What in the world does Charlie Brown have to do with R?
 
