@@ -5,8 +5,10 @@ account: arnholtat
 server: mathr.appstate.edu
 hostUrl: https://mathr.appstate.edu/connect/__api__
 appId: 5
-bundleId:
+bundleId: 17
 url: https://mathr.appstate.edu/connect/content/668e8670-bd72-4454-95e0-471051cd8ccc/
 version: 1
+quarto_version: 1.3.353
+quarto_engines: knitr
 asMultiple: FALSE
-asStatic: TRUE
+asStatic: FALSE

@@ -4,12 +4,11 @@ author: "Your Name Goes Here"
 date: last-modified
 date-format: "[Last modified on] MMMM DD, YYYY HH:mm:ss zzz"
 format: 
-  html: default
   pdf: default
+  html: default
 editor: visual
 ---
 
-------------------------------------------------------------------------
 
 ```{r include = FALSE}
 library(knitr)
@@ -24,7 +23,6 @@ The goal this week is to introduce `R` and RStudio which will be used throughout
 
 Today, we begin with the fundamental building blocks of `R` and RStudio: the interface, creating and saving files, and basic commands.
 
-------------------------------------------------------------------------
 
 # Opening RStudio Server
 
@@ -34,10 +32,6 @@ Your credentials are the same ones you use to log into your ASU email account.
 
 Please **DO NOT** choose Stay signed in.
 
-``` python
-```
-
-------------------------------------------------------------------------
 
 # The RStudio Interface
 
@@ -46,7 +40,7 @@ In the RStudio Server, you should see a window that looks like the image in @fig
 ```{r, echo = FALSE}
 #| label: fig-rstudio
 #| fig-cap: "The RStudio interface"
-knitr::include_graphics("./figures/RStudio-Opening.png", dpi = 126)
+knitr::include_graphics("./figures/RStudio-Opening.png", dpi = 196)
 ```
 
 The panel on the left is where the action happens. It's called the ***console***. Every time RStudio is launched, it will have the same text at the top of the console describing the version of `R` that is running.
@@ -55,7 +49,6 @@ The panel in the upper right contains the ***workspace***. This shows the variab
 
 Any plots that are generated will show up in the panel in the lower right corner. This is also where you can browse your files, access help files, and upload and download files.
 
-------------------------------------------------------------------------
 
 # Using Quarto Files
 
@@ -133,7 +126,6 @@ Inspect the `*.html` file to see how what you typed was formatted. There are lot
 -   putting `##` and a space in front of text makes it into a large header. For example, see how `## This is a header` in your Quarto `*.qmd` file translates in the resulting `*.html` output.
 -   putting `###` and a space in front of text makes it a smaller header.
 
-------------------------------------------------------------------------
 
 # Entering and Running Commands
 
@@ -161,10 +153,9 @@ Think of "running" code in your console as telling `R` "do this."
 Note that you now have a new object in your workspace, called `x`.
 
 ```{r, echo = FALSE}
-knitr::include_graphics("figures/quarto-workspace.png", dpi = 127)
+knitr::include_graphics("figures/quarto-workspace.png", dpi = 196)
 ```
 
-------------------------------------------------------------------------
 
 # Data Types$-$a Brief Intro
 
@@ -190,7 +181,6 @@ You can do math on a vector that contains numbers. For instance, copy, paste, an
 v * 3
 ```
 
-------------------------------------------------------------------------
 
 # Practice on Your Own {#sec-practice-on-your-own}
 
@@ -200,7 +190,6 @@ Type complete sentences to answer all questions in the Quarto document. Round al
 Remember to save your work as you go along. Click the floppy disk (save current document) button in the upper left hand corner of the Quarto source panel.
 :::
 
-------------------------------------------------------------------------
 
 ::: {.callout-note icon="false" title="Problem 1"}
 Answer the following with code in a code chunk (no text necessary). Remember that the code is just **instructions** for `R`. You need to run the code chunk to make `R` execute those instructions.
@@ -355,7 +344,6 @@ What does Charlie Brown have to do with `R`?
 **Type your answer here and delete this sentence.**
 :::
 
-------------------------------------------------------------------------
 
 # Turning in Your Work
 
@@ -366,7 +354,6 @@ You will need to make sure you commit and push all of your changes to the github
 -   Look at your final html file to make sure it contains the work you expect and is formatted properly.
 :::
 
-------------------------------------------------------------------------
 
 # Logging out of the Server
 
@@ -380,16 +367,14 @@ There are many statistics classes and students using the Server. To keep the ser
 -   You are signed out.
 :::
 
-------------------------------------------------------------------------
 
 ```{r, echo = FALSE}
 knitr::include_graphics("https://ih0.redbubble.net/image.383394350.6935/mp,550x550,gloss,ffffff,t.3u1.jpg", dpi = 126)
 ```
 
-------------------------------------------------------------------------
 
 ```{r}
 sessionInfo()
 ```
 
-------------------------------------------------------------------------
+
