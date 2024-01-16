@@ -317,7 +317,7 @@ music <- c("bluegrass", "funk", "folk")
 :::
 
 ::: {.callout-note icon="false" title="Problem 10"}
-Now let's practice some basic formatting. Using <https://rmarkdown.rstudio.com/authoring_basics.html>, figure out how to put italic, bold, and superscripted text into your lab report.
+Now let's practice some basic formatting. Using <https://quarto.org/docs/authoring/markdown-basics.htmll>, figure out how to put italic, bold, and superscripted text into your lab report.
 
 You do not need to do anything for this problem other than to observe the code in the `.qmd` document that generates the italicized, bolded, and superscripted output.
 :::
